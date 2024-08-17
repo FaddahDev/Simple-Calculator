@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+      
+    <div class="w-25  section1 shadow"> 
+<div class="div"><h4 class="mb-3 fw-bold">Simple Calculator</h4></div>
+
+<label class="mb-3 mt-4">Enter First Number:</label>
+<input type="text" name="siteName" id="num1" class="w-100 form-control" placeholder="First Number">
+
+<label class="mb-3 mt-4">Enter Second number:</label>
+<input type="text" name="siteURL" id="num2" class="w-100 form-control" placeholder="Second Number">
+
+<div class="w-100 buttons">
+  <button class=" mt-3 text-white buttun1" id="add" onclick="add()">Add</button>
+<button class=" mt-3 text-white btn-warning buttun2 py-3 px-4" id="subtract" onclick="subtract()">
+  Subtract</button>
+  <button class=" mt-3 text-white btn-danger buttun3" onclick="clearInput()">
+      Clear </button>
+
+</div>
+<div class="result " id="result">5</div>
+</div>
+
+
+    <script src="bootstrap.bundle.min.js"> </script>
+    <script src="main.js"></script>
+
+</body>
+</html>
